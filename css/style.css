@@ -1,0 +1,180 @@
+html, body, main, .hello-section {
+    height: 100%;
+}
+
+body {
+    margin: auto;
+}
+
+header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-right: 70px;
+}
+
+a:hover {
+    color: #bfba55;
+}
+
+nav a {
+    text-decoration: none;
+    color: #777;
+}
+
+article {
+    max-width: 950px;
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    padding-right: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+h5 {
+    text-align: center;
+    color: #bfba55;
+}
+
+label {
+    padding-left: 80px;
+}
+
+.greeting-button {
+    display: block;
+    margin: 0 auto;
+
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+}
+
+.hello-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    background-color: #000;
+}
+
+.hello-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/home-bg.jpg");
+    background-position: center center;
+    opacity: 50%;
+}
+
+.hello-text {
+    position: absolute;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-img {
+    max-width: 100%;
+}
+
+.author {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.author-wrapper {
+    display: flex;
+    align-items: center;
+    color: #777;
+    margin-top: 30px;
+}
+
+.comments {
+    display: flex;
+    color: #777;
+}
+
+.blog-btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: #777;
+    border: 1px solid #777;
+}
+
+.blog-author-name {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blog-date {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blog-text {
+    margin-top: 30px;
+    color: #777;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 360px;
+    width: 100%;
+    background-color: #000;
+}
+
+.contact-column {
+    width: 430px;
+    height: 170px;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
+.e-lab {
+    margin-left: 10%;
+    margin-right: 20px;
+}
+
+.about {
+    margin-right: 10%;
+}
+
+.contact-text {
+    color: #777;
+}
